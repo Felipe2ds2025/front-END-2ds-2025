@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    
+    
+    <style>
+        ul li {
+             /* retirando os icones de lista padrão  */
+             list-style-type: none;
+
+             /* listando os itens de lista na horizontal */
+        }
+
+           ul {
+            /* deixando os itens de lista na hotizontal */
+            display: flex;
+            column-count: 1;
+            column-gap: 20px;
+           }
+
+           li {
+            opacity: 0;
+            animation: FadeIn 0.5 ease forwards;
+            
+           }
+
+           @keyframes FadeIm {
+            to {opacity: 1;}
+                     }
+             li:nth-child(1){animation-delay: 0.1s;}
+             li:nth-child(2){animation-delay: 0.3s;}
+             li:nth-child(3){animation-delay: 0.5s;}
+
+    </style>
+    
+    
+    
+    
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    
+
+           <ul>
+
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+
+           </ul>
+          
+
+
+
+
+</body>
+</html>

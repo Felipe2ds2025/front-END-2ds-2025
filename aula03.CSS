@@ -1,0 +1,29 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.box{
+    margin: 20px;
+    background-color: crimson;
+}
+#espacador
+{
+    padding: 200px;
+    background-color: crimson;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1)0%, rgb(9, 9, 121, 1)35%, rgba(0, 202, 255, 1) 100%)
+
+
+
+
+}
